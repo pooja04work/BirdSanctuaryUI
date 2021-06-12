@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="addBird.css">
+    <title>Bird Santury</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1>Add Bird To BirdSantury!</h1>
+    </header>
+    <div class="container">
+        <form action="" method="POST">
+            <div class="elements">
+                <input type="text" id="birdId" placeholder="Bird Id">
+            </div>
+            <div class="elements">
+                <input type="text" id="birdName" placeholder="Bird Name">
+            </div>
+            <div class="elements">
+                <label>Type:</label>
+                <input type="radio" id="swmiable" name="type">
+                <label class="text" for="swmiable">Swimable</label>
+                <input type="radio" id="flyable" name="type">
+                <label class="text" for="flyable">Flyable</label>
+            </div>
+            <div class="elements">
+                <label for="favcolor">Select your favorite color: </label>
+                <input type="color" id="favcolor" name="favcolor" value="#ffff0f"><br>
+            </div>
+            <div></div><br><br>
+            <div id="butt"><button type="submit" class="button-box" value="Submit" onclick="msg()">submit</button></div>
+
+
+
+        </form>
+    </div>
+    </header>
+
+</body>
+
+</html>
